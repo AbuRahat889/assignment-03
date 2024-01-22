@@ -34,11 +34,63 @@
         .google-font {
             font-family: "Manrope", sans-serif;
         }
+
+        #munu ul li a :hover {
+            border: none;
+        }
+
+        #menu li :hover {
+            border: none;
+            color: red;
+            background: none;
+            letter-spacing: 2px;
+            transition: 0.8s;
+        }
     </style>
 </head>
 
 <body class="google-font">
-    <header class="container mx-auto my-10">
+
+    <header class="container mx-auto ">
+
+        <div class="navbar bg-base-100 py-8 ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 b">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="text-3xl font-extrabold">Hockey<span class="text-red-600">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex px-10">
+                <ul id="menu" class="menu menu-horizontal px-1 text-lg font-normal">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="fa-solid fa-magnifying-glass pr-4 text-3xl text-[#89898B]"></i>
+                <a class="btn bg-[#FF4240] text-white text-sm font-bold">Get Ticket</a>
+            </div>
+        </div>
+
+
+
         <section>
             <div class="carousel w-full">
 
@@ -61,212 +113,212 @@
     </header>
     <!-- main secton -->
     <main class="container mx-auto">
-    </section>
-    <!-- Professional Hockeys Club -->
-    <section class="mt-20">
-        <div class="text-center space-y-5 px-10 lg:px-80">
-            <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
-            <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                urna in sit nullam proin. </p>
-        </div>
-
-        <!-- progress -->
-        <div class="flex flex-col lg:flex-row gap-4 mt-10">
-            <!-- progress 01 -->
-            <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
-                <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color: red;"
-                    role="progressbar">
-                    <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
-                </div>
-                <h3 class="text-xl font-semibold">Prayer Facility</h3>
-                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </section>
+        <!-- Professional Hockeys Club -->
+        <section class="mt-20">
+            <div class="text-center space-y-5 px-10 lg:px-80">
+                <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
             </div>
-            <!-- progress 02 -->
-            <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
-                <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#49D293;"
-                    role="progressbar">
-                    <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+
+            <!-- progress -->
+            <div class="flex flex-col lg:flex-row gap-4 mt-10">
+                <!-- progress 01 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color: red;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <h3 class="text-xl font-semibold">Prayer Facility</h3>
-                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
-            </div>
-            <!-- progress 03 -->
-            <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
-                <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#b6c20a;"
-                    role="progressbar">
-                    <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                <!-- progress 02 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#49D293;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <h3 class="text-xl font-semibold">Prayer Facility</h3>
-                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
-            </div>
-            <!-- progress 04 -->
-            <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
-                <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#4C8DF1;"
-                    role="progressbar">
-                    <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                <!-- progress 03 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#b6c20a;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <h3 class="text-xl font-semibold">Prayer Facility</h3>
-                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <!-- progress 04 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#4C8DF1;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
             </div>
-        </div>
 
-    </section>
-    <!-- Program Sections -->
-    <section class="mt-20">
-        <div class="text-center space-y-5 px-10 lg:px-80">
-            <h1 class="text-4xl font-extrabold">Program Sections</h1>
-            <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                urna in sit nullam proin. </p>
-        </div>
+        </section>
+        <!-- Program Sections -->
+        <section class="mt-20">
+            <div class="text-center space-y-5 px-10 lg:px-80">
+                <h1 class="text-4xl font-extrabold">Program Sections</h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
+            </div>
 
 
-        <div class="px-4 lg: px-0">
+            <div class="px-4 lg: px-0">
 
-            <!-- hero 01 -->
-            <div class="flex flex-col lg:flex-row  gap-4 my-5">
-                <div class="hero rounded-2xl " style="background-image: url(./Images/2.png); ;">
-                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
-                    <div class="hero-content text-neutral-content">
-                        <div class="p-4 text-white ">
-                            <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
-                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                                sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
-                                congue sed et in.</p>
-                            <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
-                                Now!</button>
+                <!-- hero 01 -->
+                <div class="flex flex-col lg:flex-row  gap-4 my-5">
+                    <div class="hero rounded-2xl " style="background-image: url(./Images/2.png); ;">
+                        <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                        <div class="hero-content text-neutral-content">
+                            <div class="p-4 text-white ">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                                    sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
+                                    congue sed et in.</p>
+                                <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- hero 02 -->
+                    <div class="hero rounded-2xl" style="background-image: url(./Images/3.png); ;">
+                        <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                        <div class="hero-content text-neutral-content">
+                            <div class="p-4 text-white ">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                                    sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
+                                    congue sed et in.</p>
+                                <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- gird 3 -->
+                <div>
+                    <div class="hero rounded-2xl col-span-2 max-h-full lg:h-96"
+                        style="background-image: url(./Images/4.png);">
+                        <div class="flex justify-end hero-overlay bg-opacity-60 rounded-2xl"></div>
+                        <div class="hero-content p-0 text-neutral-content">
+                            <div class="pt-48 p-4 lg:pr-96 text-white">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                                    sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
+                                    congue
+                                    sed et in.</p>
+                                <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
+                                    Now!</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <!-- hero 02 -->
-                <div class="hero rounded-2xl" style="background-image: url(./Images/3.png); ;">
-                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
-                    <div class="hero-content text-neutral-content">
-                        <div class="p-4 text-white ">
-                            <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
-                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                                sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
-                                congue sed et in.</p>
-                            <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
-                                Now!</button>
+        <!-- Our New Products -->
+        <section>
+
+        </section>
+        <!-- Clients Question -->
+        <section class="mt-20">
+            <div class="text-center space-y-5 px-10 lg:px-80">
+                <h1 class="text-4xl font-extrabold">Clients Question</h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
+            </div>
+            <div class="mt-16 flex gap-5 flex-col px-4 lg:flex-row">
+                <div class="">
+                    <img class="w-full" src="./Images/11.png" alt="">
+                </div>
+                <div class="flex-1">
+
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
                         </div>
                     </div>
-                </div>
+                    <hr>
 
-            </div>
-
-            <!-- gird 3 -->
-            <div>
-                <div class="hero rounded-2xl col-span-2 max-h-full lg:h-96"
-                    style="background-image: url(./Images/4.png);">
-                    <div class="flex justify-end hero-overlay bg-opacity-60 rounded-2xl"></div>
-                    <div class="hero-content p-0 text-neutral-content">
-                        <div class="pt-48 p-4 lg:pr-96 text-white">
-                            <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
-                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                                sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
-                                congue
-                                sed et in.</p>
-                            <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
-                                Now!</button>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
                         </div>
                     </div>
+                    <hr>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <hr>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Our New Products -->
-    <section>
-
-    </section>
-    <!-- Clients Question -->
-    <section class="mt-20">
-        <div class="text-center space-y-5 px-10 lg:px-80">
-            <h1 class="text-4xl font-extrabold">Clients Question</h1>
-            <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                urna in sit nullam proin. </p>
-        </div>
-        <div class="mt-16 flex gap-5 flex-col px-4 lg:flex-row">
-            <div class="">
-                <img class="w-full" src="./Images/11.png" alt="">
-            </div>
-            <div class="flex-1">
-
-                <div class="collapse collapse-plus ">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <hr>
-
-                <div class="collapse collapse-plus ">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="collapse collapse-plus ">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="collapse collapse-plus ">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="collapse collapse-plus ">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="collapse collapse-plus ">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="collapse collapse-plus ">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <hr>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
 
     <footer class="bg-black mt-20">
@@ -274,47 +326,47 @@
             <div class=" text-center ml-28 lg:text-left mr-28">
                 <aside class="space-y-3">
                     <h3 class="text-2xl font-extrabold">Get In Touch</h3>
-                  <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
-                  
-                  <div class="flex gap-2 flex-row item-center">
-                    <i class="fa-regular fa-envelope text-red-600"></i>
-                    <p>user@gmail.com</p>
-                  </div>
-                  <div class="flex gap-2 flex-row item-center">
-                    <i class="fa-solid fa-phone text-red-600"></i>
-                    <p>+8801555555</p>
-                  </div>
+                    <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+
+                    <div class="flex gap-2 flex-row item-center">
+                        <i class="fa-regular fa-envelope text-red-600"></i>
+                        <p>user@gmail.com</p>
+                    </div>
+                    <div class="flex gap-2 flex-row item-center">
+                        <i class="fa-solid fa-phone text-red-600"></i>
+                        <p>+8801555555</p>
+                    </div>
                 </aside>
             </div>
-            
+
             <div class="grid ml-20 grid-cols-1 lg:grid-cols-2 gap-36">
                 <div class="flex gap-36 justify-center lg:justify-start">
                     <nav class="flex flex-col">
-                        <header class="footer-title">Legal</header> 
+                        <header class="footer-title">Legal</header>
                         <a class="link link-hover">Terms of use</a>
                         <a class="link link-hover">Privacy policy</a>
                         <a class="link link-hover">Cookie policy</a>
-                      </nav>
-                      <nav class="flex flex-col ">
-                        <header class="footer-title">Company</header> 
+                    </nav>
+                    <nav class="flex flex-col ">
+                        <header class="footer-title">Company</header>
                         <a class="link link-hover">About us</a>
                         <a class="link link-hover">Contact</a>
                         <a class="link link-hover">Jobs</a>
                         <a class="link link-hover">Press kit</a>
-                      </nav> 
+                    </nav>
                 </div>
                 <div class="flex flex-col ml-24 lg:ml-0">
                     <nav class="flex flex-col">
-                        <header class="footer-title">Services</header> 
+                        <header class="footer-title">Services</header>
                         <a class="link link-hover">Branding</a>
                         <a class="link link-hover">Design</a>
                         <a class="link link-hover">Marketing</a>
                         <a class="link link-hover">Advertisement</a>
-                      </nav> 
+                    </nav>
 
                 </div>
-            </div>       
-          </footer>
+            </div>
+        </footer>
     </footer>
 </body>
 
