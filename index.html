@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment03</title>
+
+    <!-- daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/a2dccd6894.js" crossorigin="anonymous"></script>
+
+    <!-- manapore google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- custom tailwind  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'btn-bg': '#FF4240',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .google-font {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="google-font">
+    <header class="container mx-auto my-10">
+        <section>
+            <div class="carousel w-full">
+
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle bg-b">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/1.1.jpg" class="w-full rounded-lg" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle bg-b">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Professional Hockeys Club -->
+        <section class="mt-20">
+            <div class="text-center space-y-5 px-10 lg:px-80">
+                <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
+            </div>
+
+            <!-- progress -->
+            <div class="flex flex-col lg:flex-row gap-4 mt-10">
+                <!-- progress 01 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color: red;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- progress 02 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#49D293;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- progress 03 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#b6c20a;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <!-- progress 04 -->
+                <div class="px-40 py-4 lg:p-0 space-y-3 text-center ">
+                    <div class=" radial-progress bg-gray-500 text-primary-content" style="--value:70; color:#4C8DF1;"
+                        role="progressbar">
+                        <div class="bg-white rounded-full px-4 py-5 text-black font-extrabold">70%</div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+
+        </section>
+        <!-- Program Sections -->
+        <section class="mt-20">
+            <div class="text-center space-y-5 px-10 lg:px-80">
+                <h1 class="text-4xl font-extrabold">Program Sections</h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
+            </div>
+
+
+            <div class="px-4 lg: px-0">
+
+                <!-- hero 01 -->
+                <div class="flex flex-col lg:flex-row  gap-4 my-5">
+                    <div class="hero rounded-2xl " style="background-image: url(./Images/2.png); ;">
+                        <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                        <div class="hero-content text-neutral-content">
+                            <div class="p-4 text-white ">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                                    sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
+                                    congue sed et in.</p>
+                                <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- hero 02 -->
+                    <div class="hero rounded-2xl" style="background-image: url(./Images/3.png); ;">
+                        <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                        <div class="hero-content text-neutral-content">
+                            <div class="p-4 text-white ">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                                    sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
+                                    congue sed et in.</p>
+                                <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- gird 3 -->
+                <div>
+                    <div class="hero rounded-2xl col-span-2 max-h-full lg:h-96" style="background-image: url(./Images/4.png);">
+                        <div class="flex justify-end hero-overlay bg-opacity-60 rounded-2xl"></div>
+                        <div class="hero-content p-0 text-neutral-content">
+                            <div class="pt-48 p-4 lg:pr-96 text-white">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                                    sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tort
+                                    congue
+                                    sed et in.</p>
+                                <button class="btn bg-btn-bg border-none text-white font-bold px-8">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our New Products -->
+        <section>
+             
+        </section>
+    </header>
+</body>
+
+</html>
