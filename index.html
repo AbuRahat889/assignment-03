@@ -35,16 +35,17 @@
             font-family: "Manrope", sans-serif;
         }
 
-        #munu ul li a :hover {
-            border: none;
+        #form{
+            /* display: grid; */
+            grid-template-columns: 30% repeat(1,1fr);
+            gap:50px;
         }
 
         #menu li :hover {
             border: none;
-            color: red;
+            color: #ff0000;
             background: none;
-            letter-spacing: 2px;
-            transition: 0.8s;
+            font-size: 30px;
         }
     </style>
 </head>
@@ -75,7 +76,7 @@
                 <a class="text-3xl font-extrabold">Hockey<span class="text-red-600">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex px-10">
-                <ul id="menu" class="menu menu-horizontal px-1 text-lg font-normal">
+                <ul id="menu" class="menu menu-horizontal px-1 text-xl font-normal">
                     <li><a>Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Pages</a></li>
@@ -316,6 +317,78 @@
                         </div>
                     </div>
                     <hr>
+                </div>
+            </div>
+        </section>
+        <!-- Get In Touch -->
+        <section class="mt-20">
+            <div class="text-center space-y-5 px-10 lg:px-80">
+                <h1 class="text-4xl font-extrabold">Get In Touch</h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                    urna in sit nullam proin. </p>
+            </div>
+
+            <div class="mt-20  pl-8 lg:grid " id="form">
+                <div class="p-5 flex flex-col gap-6 border-2 border-solid rounded-lg border-gray-400">
+                    <div class="card bg-[#bced6d1a]">
+                        <!-- background: rgba(188, 237, 109, 0.10); -->
+                        <div class="card-body">
+                            <i class="fa-solid fa-phone-volume text-5xl text-green-600"></i>
+                          <p>Phone Number : </p>
+                          <h2 class="card-title">+801555555</h2>
+                        </div>
+                      </div>
+
+                      <div class="card  bg-[#fddd5f1a]">
+                        <!-- background: rgba(188, 237, 109, 0.10); -->
+                        <div class="card-body">
+                            <i class="fa-solid fa-phone-volume text-5xl text-green-600"></i>
+                          <p>Phone Number : </p>
+                          <h2 class="card-title">+801555555</h2>
+                        </div>
+                      </div>
+
+                      <div class="card  bg-[#629cf31a]">
+                        <!-- background: rgba(188, 237, 109, 0.10); -->
+                        <div class="card-body">
+                            <i class="fa-solid fa-phone-volume text-5xl text-green-600"></i>
+                          <p>Phone Number : </p>
+                          <h2 class="card-title">+801555555</h2>
+                        </div>
+                      </div>
+                </div>
+                <div class="mt-6 lg:mt-0">
+                    <form action="">
+                        <div class="flex gap-6 mb-5">
+                            <div class="flex-1">
+                                <h4 class="text-xl font-bold mb-3">your name</h4>
+                                <input class="bg-[#13131808] rounded-md p-4" type="text" name="name" id="" placeholder="your name">
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-xl font-bold mb-3">your email</h4>
+                                <input class="bg-[#13131808] rounded-md p-4" type="email" name="" id="" placeholder="your email">
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="flex-1">
+                                <h4 class="text-xl font-bold mb-3">Subject</h4>
+                                <input class="bg-[#13131808] rounded-md p-4" type="text" name="name" id="" placeholder="your name">
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-xl font-bold mb-3">phone Number</h4>
+                                <input class="bg-[#13131808] rounded-md p-4" type="number" name="" id="" placeholder="your email">
+                            </div>
+                        </div>
+                        <label class="form-control">
+                            <div class="label">
+                              <span  class="text-xl font-bold mb-3">Message</span>
+                            </div>
+                            <textarea class="textarea textarea-bordered w-4/5 h-80 bg-[#13131808]" placeholder="write your Message"></textarea> 
+                            
+                          </label>
+                          <!-- <input type="submit" value="send message"> -->
+                          <button class="btn text-white w-4/5 mt-2 bg-[#FF4240]">send message</button>
+                    </form>
                 </div>
             </div>
         </section>
